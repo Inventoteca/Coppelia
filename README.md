@@ -2,15 +2,14 @@
 Es un simulador de robots desarrollado por Coppelia Robotics.  
 Antes se llamaba V-Rep y fue creado por Toshiba R&D.  
 
-Trabajar con CoppeliaSim versión EDU.  
-La versión PRO necesita una licencia para guardar las escenas.  
+Trabajar con CoppeliaSim versión EDU. La versión PRO necesita una licencia para guardar las escenas.  
 
 Manual  
 https://www.coppeliarobotics.com/helpFiles/index.html  
 API Reference  
 https://coppeliarobotics.com/helpFiles/index.html  
 
-Diseño 3D Robot con 3 DOF  
+Diseño 3D Robot con 3 DOF para usar en la simulación  
 https://grabcad.com/library/robot-scara-3-dof-1  
 
 Extensión para exportar modelo de SolidWorks  
@@ -35,8 +34,18 @@ https://forum.coppeliarobotics.com/viewtopic.php?t=497
 Para entender qué significa par motor  
 https://es.wikipedia.org/wiki/Par_motor  
 
-Curso ??
-http://hades.mech.northwestern.edu/index.php/Getting_Started_with_the_CoppeliaSim_Simulator
+Curso  
+http://hades.mech.northwestern.edu/index.php/Getting_Started_with_the_CoppeliaSim_Simulator  
+
+## Parámetros Denavit-Hartenberg
+Aplicación para obtener parámetros Denavit-Hartenberg de manera gráfica  
+https://demonstrations.wolfram.com/DenavitHartenbergParametersForAThreeLinkRobot/  
+https://www.wolframcloud.com/objects/demonstrations/DenavitHartenbergParametersForAThreeLinkRobot-source.nb  
+Tabla con datos dinámicos  
+https://www.universal-robots.com/articles/ur/application-installation/dh-parameters-for-calculations-of-kinematics-and-dynamics/  
+
+| Parámetros DH | theta(rad) | d(m) | r(m) | alpha(rad) |
+| Joint1        | theta_1    | 0.2  | 0.5  | 0          |
 
 ## Definiciones
 **Espacio de trabajo** - Son todos los puntos alcanzables por la herramienta de trabajo.
