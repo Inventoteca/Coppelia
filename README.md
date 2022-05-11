@@ -45,7 +45,10 @@ Tabla con datos dinámicos
 https://www.universal-robots.com/articles/ur/application-installation/dh-parameters-for-calculations-of-kinematics-and-dynamics/  
 
 | Parámetros DH | theta(rad) | d(m) | r(m) | alpha(rad) |
-| Joint1        | theta_1    | 0.2  | 0.5  | 0          |
+|---------------|------------|------|------|------------|
+| Joint1        | theta1     | 0.2  | 0.5  | 0          |
+| Joint2        | theta2     | 0    | 0.5  | 0          |
+| Joint3        | 0          | d3   | 0    | 0          |
 
 ## Definiciones
 **Espacio de trabajo** - Son todos los puntos alcanzables por la herramienta de trabajo.
